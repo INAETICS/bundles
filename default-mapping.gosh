@@ -306,6 +306,7 @@ create_feature_mapping [
         ["identity"="org.inaetics.demonstrator.api.queue" "version"="1.0.0"]
         ["identity"="org.inaetics.demonstrator.api.stats" "version"="1.0.0"]
         ["identity"="org.inaetics.demonstrator.api.coordinator" "version"="1.0.0"]
+        ["identity"="org.inaetics.demonstrator.api.clusterinfo" "version"="1.0.0"]
       ]
     ]
     [
@@ -336,6 +337,12 @@ create_feature_mapping [
       "name"="felix_demo_viewer"
       "artifacts"=[
         ["identity"="org.inaetics.demonstrator.java_impl.view" "version"="0"]
+      ]
+    ]
+    [
+      "name"="felix_demo_clusterinfo"
+      "artifacts"=[
+        ["identity"="org.inaetics.demonstrator.java_impl.clusterinfo" "version"="0"]
       ]
     ]
     [
@@ -531,6 +538,14 @@ create_distribution_mapping [
       "tags"=[]
     ]
     [
+      "name"="felix_demo_clusterinfo"
+      "features"=[
+        ["name"="felix_demo_clusterinfo"]
+      ]
+      "attributes"=[]
+      "tags"=[]
+    ]
+    [
       "name"="felix_demo_coordinator"
       "features"=[
         ["name"="felix_demo_coordinator"]
@@ -593,6 +608,7 @@ create_target_mapping [
         ["name"="felix_demo_shared"]
         ["name"="felix_demo_datastore"]
         ["name"="felix_demo_viewer"]
+        ["name"="felix_demo_clusterinfo"]
         ["name"="felix_demo_coordinator"]
         ["name"="felix_demo_utilization"]
       ]
