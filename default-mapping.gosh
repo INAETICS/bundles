@@ -259,41 +259,30 @@ create_feature_mapping [
       "name"="celix_demo_queue"
       "artifacts"=[
         ["identity"="org.inaetics.demonstrator.sample_queue" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.queue_endpoint" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.stats_provider_endpoint" "version"="1.0.0"]
       ]
     ]
     [
       "name"="celix_demo_producer"
       "artifacts"=[
         ["identity"="org.inaetics.demonstrator.producer" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.producer_endpoint" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.queue_proxy" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.stats_provider_endpoint" "version"="1.0.0"]
       ]
     ]
     [
       "name"="celix_demo_datastore"
       "artifacts"=[
         ["identity"="org.inaetics.demonstrator.data_store" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.data_store_endpoint" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.stats_provider_endpoint" "version"="1.0.0"]
       ]
     ]
     [
       "name"="celix_demo_processor"
       "artifacts"=[
         ["identity"="org.inaetics.demonstrator.processor" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.queue_proxy" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.stats_provider_endpoint" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.data_store_proxy" "version"="1.0.0"]
       ]
     ]
     [
       "name"="celix_demo_statistic_tracker"
       "artifacts"=[
         ["identity"="org.inaetics.demonstrator.statistic_tracker" "version"="1.0.0"]
-        ["identity"="org.inaetics.demonstrator.stats_provider_proxy" "version"="1.0.0"]
       ]
     ]
     [
